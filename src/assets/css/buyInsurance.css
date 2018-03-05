@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'iconfont';
+  src: url("//at.alicdn.com/t/font_452405_sp1hrhl5pi7ldi.eot");
+  src: url("//at.alicdn.com/t/font_452405_sp1hrhl5pi7ldi.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_452405_sp1hrhl5pi7ldi.woff") format("woff"), url("//at.alicdn.com/t/font_452405_sp1hrhl5pi7ldi.ttf") format("truetype"), url("//at.alicdn.com/t/font_452405_sp1hrhl5pi7ldi.svg#iconfont") format("svg");
+}
+.iconfont {
+  font-family: "iconfont";
+  font-size: 16px;
+  font-style: normal;
+}
+
+body {
+  flex-direction: column;
+  background: #F1F1F1;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#buyInsurance-header {
+  width: 100%;
+  height: 9vh;
+  /*高度自己量*/
+  background: #fff;
+  /*背景自己量*/
+  border-bottom: solid 1px #DFDFDF;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 9vh;
+  text-align: center;
+  font-size: .36rem;
+  color: #333;
+  position: relative;
+}
+#buyInsurance-header span {
+  position: absolute;
+  left: .24rem;
+  font-size: .66rem;
+  color: #FF6B3E;
+  font-weight: 900;
+}
+
+#buyInsurance-main {
+  background: #fff;
+  min-height: 91vh;
+  padding: 0 0.24rem;
+  overflow: hidden;
+}
+#buyInsurance-main .animate {
+  display: none;
+  opacity: 0;
+  width: 100%;
+  margin-top: .4rem;
+  float: left;
+  flex-wrap: nowrap;
+}
+#buyInsurance-main .animate dt {
+  float: left;
+  width: .84rem;
+  height: .84rem;
+  margin-right: .3rem;
+  box-sizing: border-box;
+  border: 1px solid #E0DEDC;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/zcImg/whitebuy_photo1.gif) no-repeat top center;
+  background-size: contain;
+}
+#buyInsurance-main .animate dt img {
+  width: 80%;
+}
+#buyInsurance-main .animate dd {
+  float: left;
+  min-width: 1rem;
+  max-width: 4.68rem;
+  min-height: .84rem;
+  background: #FF6B3E;
+  position: relative;
+  border-radius: .14rem;
+  box-sizing: border-box;
+  padding: .24rem;
+  font-size: .24rem;
+  color: #fff;
+}
+#buyInsurance-main .animate dd .say {
+  position: relative;
+  letter-spacing: .01rem;
+}
+#buyInsurance-main .animate dd .say img {
+  display: inline-block;
+  height: 0.36rem;
+  vertical-align: bottom;
+}
+#buyInsurance-main .animate dd .jiao {
+  display: block;
+  height: 0;
+  width: 0;
+  border-bottom: solid #fff .12rem;
+  border-top: solid #fff .12rem;
+  border-left: solid #fff .12rem;
+  border-right: solid #FF6B3E .12rem;
+  position: absolute;
+  left: -.24rem;
+  top: .24rem;
+}
+#buyInsurance-main .active {
+  transition: all 2s;
+  display: block;
+  opacity: 1;
+}

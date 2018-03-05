@@ -1,0 +1,169 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1; }
+
+#reg-header {
+  width: 100%;
+  height: 1rem;
+  color: #000;
+  background: #fff;
+  overflow: hidden; }
+  #reg-header .reg-header-min {
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-top: 3.4%; }
+    #reg-header .reg-header-min img {
+      display: inline-block;
+      width: 0.27rem;
+      vertical-align: middle;
+      margin-left: 0.3rem; }
+    #reg-header .reg-header-min span {
+      vertical-align: middle;
+      display: inline-block;
+      font-size: 0.38rem;
+      font-weight: 900;
+      margin-left: 31%;
+      text-align: center; }
+
+#reg-main {
+  width: 94%;
+  margin: 0 auto;
+  min-height: 2.82rem;
+  box-sizing: border-box;
+  padding-top: 0.4rem; }
+  #reg-main .reg-phone {
+    margin-bottom: 0.2rem;
+    width: 100%;
+    height: 0.8rem;
+    text-align: center;
+    background: url(../images/register/line1.png) no-repeat left bottom/6rem 0.2rem; }
+    #reg-main .reg-phone input {
+      display: inline-block;
+      width: 90%;
+      margin: 0 auto;
+      border: 0;
+      background: #f1f1f1;
+      height: 0.6rem;
+      line-height: 0.6rem;
+      font-size: 0.3rem; }
+    #reg-main .reg-phone b {
+      display: inline-block;
+      width: 5%;
+      height: 20%;
+      font-size: 0.4rem;
+      color: #FA7D00; }
+  #reg-main .reg-code {
+    width: 100%;
+    height: 0.8rem;
+    margin-bottom: 0.2rem;
+    background: url(../images/register/line3.png) no-repeat left bottom/6rem 0.2rem; }
+    #reg-main .reg-code input {
+      display: inline-block;
+      width: 63%;
+      border: 0;
+      margin-left: 1.1%;
+      background: #f1f1f1;
+      height: 0.6rem;
+      line-height: 0.6rem;
+      font-size: 0.3rem; }
+    #reg-main .reg-code span {
+      display: inline-block;
+      font-size: 0.3rem;
+      color: #FA7D00; }
+  #reg-main .reg-test {
+    width: 100%;
+    height: 0.8rem;
+    background: url(../images/register/line3.png) no-repeat left bottom/6rem 0.2rem; }
+    #reg-main .reg-test input {
+      display: inline-block;
+      width: 65%;
+      border: 0;
+      margin-left: 1.1%;
+      background: #f1f1f1;
+      height: 0.6rem;
+      line-height: 0.6rem;
+      font-size: 0.3rem; }
+    #reg-main .reg-test img {
+      display: inline-block;
+      width: 30%;
+      vertical-align: middle; }
+
+#reg-button {
+  outline: none;
+  width: 92%;
+  height: 0.8rem;
+  margin: 0.6rem auto; }
+
+.reg-button {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  border-radius: 0.1rem;
+  background: #EF1F04;
+  color: #fff;
+  font-size: 0.34rem;
+  border: 0; }
+
+#reg-agree {
+  box-sizing: border-box;
+  padding: 0 8%;
+  width: 100%; }
+  #reg-agree b {
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    vertical-align: middle;
+    border-radius: 3rem; }
+  #reg-agree .reg-ag {
+    border: 1px solid #999; }
+  #reg-agree p {
+    margin-left: 0.1rem;
+    color: #000;
+    font-size: 0.28rem;
+    vertical-align: middle;
+    display: inline-block; }
+    #reg-agree p a {
+      display: inline-block;
+      color: #FA7D00;
+      font-size: 0.28rem;
+      border-bottom: 1px solid #FA7D00; }
+
+#reg-select {
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  margin: 0.5rem auto;
+  font-size: 0.4rem;
+  text-align: center;
+  line-height: 1rem; }
+
+#reg-footer {
+  width: 88%;
+  margin: 0 auto;
+  height: 1rem;
+  text-align: center; }
+  #reg-footer ul {
+    padding-left: 0.2rem;
+    text-align: center;
+    width: 100%;
+    color: #000; }
+    #reg-footer ul li {
+      width: 1.8rem;
+      border-right: 1px solid #dcdcdc;
+      text-align: center;
+      float: left;
+      font-size: 0.28rem; }
+    #reg-footer ul .th {
+      border: 0; }
+  #reg-footer p {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.2rem; }
+
+.reg-right {
+  background: url(../images/register/icons-18-white_41.png) no-repeat center; }
+
+/*# sourceMappingURL=register.css.map */

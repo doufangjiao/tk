@@ -1,0 +1,44 @@
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.1rem;
+  box-sizing: border-box;
+  z-index: 10;
+  background: #fff;
+  border-top: 1px solid #E9E9E9;
+  display: flex; }
+  #footer li {
+    flex: 1; }
+    #footer li a {
+      width: 100%;
+      display: inline-block;
+      font-size: 0.22rem;
+      text-align: center;
+      height: 100%;
+      color: #202020; }
+      #footer li a em {
+        display: inline-block;
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-top: 0.15rem;
+        background-repeat: no-repeat;
+        background-size:0.48rem;}
+        #footer li:nth-child(1) a em{
+          background-image: url(../images/common/menu_ico1.png);
+        }
+        #footer li:nth-child(2) a em{
+          background-image: url(../images/common/menu_ico2.png);
+        }
+        #footer li:nth-child(3) a em{
+          background-image: url(../images/common/menu_ico3.png);
+        }
+        #footer li:nth-child(4) a em{
+          background-image: url(../images/common/menu_ico4.png);
+        }
+        #footer li:nth-child(5) a em{
+          background-image: url(../images/common/menu_ico5.png);
+        }
+
+/*# sourceMappingURL=common.css.map */

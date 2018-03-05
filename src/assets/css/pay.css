@@ -1,0 +1,143 @@
+#pay-header {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  height: 1rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #ddd;
+  color: #000; }
+  #pay-header .goBack {
+    position: absolute;
+    left: 0.25rem;
+    top: 50%;
+    margin-top: -0.25rem;
+    background: url(../images/pay/back.png) no-repeat;
+    background-size: contain;
+    width: 0.25rem;
+    height: 0.5rem; }
+  #pay-header h2 {
+    font-size: 0.38rem;
+    text-align: center;
+    line-height: 1rem;
+    font-weight: 100; }
+
+#pay-indent {
+  margin-top: 1rem; }
+  #pay-indent h3 {
+    font-size: 0.28rem;
+    font-weight: 700;
+    line-height: 0.7rem;
+    text-indent: 0.25rem;
+    padding-top: 0.2rem;
+    color: #000; }
+  #pay-indent .detaillist {
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0.25rem; }
+    #pay-indent .detaillist p {
+      font-size: 0.26rem;
+      line-height: 0.5rem;
+      display: -webkit-box; }
+      #pay-indent .detaillist p span:nth-child(2) {
+        color: #000; }
+      #pay-indent .detaillist p .liabilitys {
+        display: block;
+        width: 4.5rem;
+        word-break: break-all;
+        word-wrap: break-word; }
+      #pay-indent .detaillist p #price {
+        display: block;
+        color: #D51B04; }
+
+#pay-way {
+  color: #000;
+  margin-bottom: 1.08rem; }
+  #pay-way h3 {
+    font-size: 0.28rem;
+    font-weight: 700;
+    line-height: 0.7rem;
+    text-indent: 0.25rem;
+    padding-top: 0.2rem; }
+  #pay-way .list {
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-left: 0.25rem; }
+    #pay-way .list li {
+      position: relative;
+      padding-left: 0.8rem;
+      min-height: 1.2rem;
+      font-size: 0.3rem;
+      display: flex;
+      line-height: 1.2rem; }
+      #pay-way .list li label {
+        display: block;
+        width: 100%; }
+        #pay-way .list li label input[type=radio] {
+          display: none; }
+        #pay-way .list li label span {
+          width: 0.5rem;
+          height: 0.5rem;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          margin-top: -0.25rem;
+          background: url(../images/pay/radio.png) no-repeat;
+          background-size: contain; }
+    #pay-way .list li:before {
+      content: '';
+      width: 0.8rem;
+      height: 0.8rem;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0.26rem 0.12rem 0 0; }
+    #pay-way .list li:not(:first-of-type) {
+      border-top: 1px solid #ddd; }
+    #pay-way .list .wx label input[type=radio]:checked + span {
+      background: url(../images/pay/radioed.png) no-repeat;
+      background-size: contain; }
+    #pay-way .list .wx:before {
+      background: url(../images/pay/pay2.png) no-repeat;
+      background-size: contain; }
+    #pay-way .list .zfb:before {
+      background: url(../images/pay/pay1.png) no-repeat;
+      background-size: contain; }
+
+#pay-footer {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  height: 1.1rem;
+  position: fixed;
+  border-top: 1px solid #ddd;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex; }
+  #pay-footer .PayWechat {
+    font-size: 0.26rem;
+    text-align: center;
+    width: 50%;
+    line-height: 1.1rem;
+    color: #000; }
+    #pay-footer .PayWechat p {
+      display: inline-block; }
+    #pay-footer .PayWechat span {
+      color: #D51B04;
+      font-size: 0.32rem; }
+  #pay-footer input {
+    width: 50%;
+    display: block;
+    height: 1.1rem;
+    border: none;
+    font: 0.34rem/1.1rem microsoft Yahei;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    background: #f60; }

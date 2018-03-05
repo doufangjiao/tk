@@ -1,0 +1,174 @@
+#treasure-header {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  float: left; }
+  #treasure-header .item {
+    padding: 0.65rem 0 0.5rem;
+    position: relative;
+    text-align: center;
+    line-height: 0.5rem;
+    border-bottom: 1px solid #f3f3f3; }
+    #treasure-header .item p {
+      font-size: 0.28rem;
+      color: #999; }
+    #treasure-header .item h1 {
+      font-size: 0.38rem;
+      color: #000; }
+    #treasure-header .item a {
+      width: 2rem;
+      height: 0.5rem;
+      display: block;
+      margin: 0.4rem auto 0;
+      border-radius: 0.3rem;
+      font-size: 0.26rem;
+      color: #fff;
+      line-height: 0.5rem;
+      background-image: linear-gradient(#FD643C, #FD5934);
+      box-shadow: 0 0.1rem 0.6rem 0 rgba(254, 155, 109, 0.6); }
+  #treasure-header .item:after {
+    content: '';
+    background: url(../images/treasure/seal.png) no-repeat;
+    background-size: contain;
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 0.32rem;
+    right: 0.35rem; }
+  #treasure-header .tool {
+    padding: 0 0.11rem 0.3rem;
+    float: left;
+    position: relative; }
+    #treasure-header .tool a {
+      width: 2.9rem;
+      height: 1.1rem;
+      line-height: 1.1rem;
+      margin: 0.26rem 0.08rem 0;
+      font-size: 0.28rem;
+      color: #fff;
+      box-sizing: border-box;
+      padding: 0 0.2rem 0 0.2rem;
+      float: left; }
+    #treasure-header .tool a:nth-child(1) {
+      background-color: #61A0F6; }
+    #treasure-header .tool a:nth-child(2) {
+      background-color: #FEBB3E; }
+    #treasure-header .tool a:after {
+      content: '';
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 0.7rem;
+      height: 0.8rem;
+      display: block;
+      position: absolute;
+      top: 0.45rem;
+      right: 0.35rem; }
+    #treasure-header .tool a:nth-child(1):after {
+      background-image: url(../images/treasure/t1.gif);
+      right: 3.4rem; }
+    #treasure-header .tool a:nth-child(2):after {
+      background-image: url(../images/treasure/t2.gif); }
+
+#treasure-newad {
+  display: inline-block;
+  margin-top: 0.2rem; }
+  #treasure-newad img {
+    width: 100%;
+    display: block; }
+
+#treasure-invest {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  margin-top: 0.15rem; }
+  #treasure-invest .title {
+    height: 0.9rem;
+    font-size: 0.3rem;
+    font-weight: 100;
+    line-height: 0.9rem;
+    position: relative;
+    text-indent: 0.32rem;
+    display: block;
+    border-bottom: 1px solid #DFDFDF;
+    color: #000; }
+  #treasure-invest .info {
+    padding: 0.25rem 0.25rem 0; }
+    #treasure-invest .info li:not(:first-of-type) {
+      text-indent: 0.13rem;
+      line-height: 1.1rem;
+      font-size: 0.24rem;
+      color: #000; }
+    #treasure-invest .info li:nth-child(1) {
+      position: relative; }
+      #treasure-invest .info li:nth-child(1) img {
+        width: 100%; }
+      #treasure-invest .info li:nth-child(1) span {
+        width: 100%;
+        height: 0.7rem;
+        line-height: 0.7rem;
+        background: rgba(0, 0, 0, 0.3);
+        font-size: 0.26rem;
+        color: #fff;
+        text-indent: 0.25rem;
+        position: absolute;
+        left: 0;
+        bottom: 0.08rem; }
+    #treasure-invest .info li:last-of-type {
+      border-top: 1px solid #DFDFDF; }
+
+#treasure-user {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0 0.12rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1.1rem; }
+  #treasure-user h2 {
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.5rem;
+    border-bottom: 1px solid #F3F3F3;
+    padding: 0.32rem 0;
+    font-weight: 100;
+    color: #000; }
+    #treasure-user h2 .peopleNum {
+      font-size: 0.46rem;
+      font-weight: 900;
+      margin: 0 0.12rem; }
+  #treasure-user dl {
+    padding: 0.32rem 0;
+    border-bottom: 1px solid #F3F3F3;
+    color: #000;
+    display: flex; }
+    #treasure-user dl dt {
+      width: 40%;
+      border-right: 1px solid #F3F3F3;
+      font-size: 0.26rem;
+      text-align: center; }
+      #treasure-user dl dt strong {
+        font-size: 0.5rem;
+        color: #FD651C;
+        display: block; }
+    #treasure-user dl dd {
+      padding-left: 0.32rem;
+      line-height: 0.5rem;
+      padding-top: 0.12rem; }
+      #treasure-user dl dd h4 {
+        font-size: 0.3rem;
+        font-weight: 100; }
+      #treasure-user dl dd p {
+        font-size: 0.24rem;
+        color: #666; }
+  #treasure-user h6 {
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+    text-align: left;
+    padding-left: 0.25rem;
+    color: #999;
+    font-weight: 100; }
+
+    .treasure-footer #footer li:nth-child(4) a em{
+        background-image: url(../images/treasure/menu_ico4a.png);
+      }
+
+/*# sourceMappingURL=treasure.css.map */

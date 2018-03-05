@@ -1,0 +1,207 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1; }
+
+#login-header {
+  width: 100%;
+  height: 1rem;
+  color: #000;
+  background: #fff;
+  overflow: hidden; }
+  #login-header .login-header-min {
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-top: 3.4%; }
+    #login-header .login-header-min img {
+      display: inline-block;
+      width: 0.27rem;
+      vertical-align: middle;
+      margin-left: 0.3rem; }
+    #login-header .login-header-min span {
+      vertical-align: middle;
+      display: inline-block;
+      font-size: 0.38rem;
+      font-weight: 900;
+      margin-left: 21%;
+      text-align: center; }
+    #login-header .login-header-min b {
+      vertical-align: middle;
+      display: inline-block;
+      margin-left: 10%;
+      font-weight: 100;
+      font-size: 0.3rem;
+      color: #FA7D00; }
+
+.login-tou {
+  margin-left: 5%;
+  height: 1rem;
+  line-height: 1rem;
+  background: #f1f1f1;
+  color: #000;
+  font-size: 0.25rem; }
+
+#login-main {
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 2.7rem;
+  box-sizing: border-box;
+  padding-left: 3%;
+  padding-right: 3%; }
+  #login-main .login-phone {
+    margin-bottom: 0.2rem;
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-bottom: 1px solid #DBDBDB; }
+    #login-main .login-phone span {
+      display: inline-block;
+      width: 17%;
+      font-size: 0.3rem;
+      color: #000; }
+    #login-main .login-phone .user-phone {
+      display: inline-block;
+      width: 48%;
+      border: 0;
+      background: #fff;
+      height: 0.6rem;
+      line-height: 0.6rem;
+      font-size: 0.28rem; }
+    #login-main .login-phone .login-get {
+      outline: none;
+      display: inline-block;
+      width: 22%;
+      font-size: 0.2rem;
+      height: 0.5rem;
+      background: #fff;
+      color: #FF8989;
+      border-radius: 0.5rem;
+      border: 1px solid #FF8989; }
+    #login-main .login-phone b {
+      display: inline-block;
+      width: 5%;
+      height: 20%;
+      font-size: 0.4rem;
+      color: #FA7D00; }
+  #login-main .login-code {
+    width: 100%;
+    height: 0.8rem;
+    border-bottom: 1px solid #DBDBDB; }
+    #login-main .login-code span {
+      display: inline-block;
+      width: 17%;
+      font-size: 0.3rem;
+      color: #000; }
+    #login-main .login-code input {
+      display: inline-block;
+      width: 80%;
+      border: 0;
+      background: #f1f1f1;
+      height: 0.6rem;
+      line-height: 0.6rem;
+      font-size: 0.28rem;
+      background: #fff; }
+  #login-main .login-test {
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-bottom: 1px solid #DBDBDB; }
+    #login-main .login-test input {
+      display: inline-block;
+      width: 65%;
+      border: 0;
+      margin-left: 1.1%;
+      background: #fff;
+      height: 0.6rem;
+      line-height: 0.6rem;
+      font-size: 0.3rem;
+      vertical-align: middle; }
+    #login-main .login-test img {
+      display: inline-block;
+      width: 30%;
+      vertical-align: middle; }
+
+#login-button {
+  width: 92%;
+  height: 0.8rem;
+  margin: 0.6rem auto; }
+
+.login-btn {
+  width: 100%;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  text-align: center;
+  border-radius: 0.1rem;
+  background: #999997;
+  color: #fff;
+  font-size: 0.34rem;
+  border: 0; }
+
+#login-agree {
+  box-sizing: border-box;
+  padding: 0 8%;
+  width: 100%; }
+  #login-agree b {
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    vertical-align: middle;
+    border-radius: 3rem; }
+  #login-agree .login-ag {
+    border: 1px solid #999; }
+  #login-agree p {
+    margin-left: 0.1rem;
+    color: #000;
+    font-size: 0.28rem;
+    vertical-align: middle;
+    display: inline-block; }
+    #login-agree p a {
+      display: inline-block;
+      color: #FA7D00;
+      font-size: 0.28rem;
+      border-bottom: 1px solid #FA7D00; }
+
+#login-select {
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  margin: 0.5rem auto;
+  font-size: 0.4rem;
+  text-align: center;
+  line-height: 1rem;
+  margin-top: 1.4rem; }
+  #login-select div {
+    display: inline-block;
+    font-size: 0.25rem;
+    color: blue;
+    margin-left: 0.3rem; }
+
+#login-footer {
+  width: 88%;
+  margin: 0 auto;
+  height: 1rem;
+  text-align: center; }
+  #login-footer ul {
+    padding-left: 0.2rem;
+    text-align: center;
+    width: 100%;
+    color: #000; }
+    #login-footer ul li {
+      width: 1.8rem;
+      border-right: 1px solid #dcdcdc;
+      text-align: center;
+      float: left;
+      font-size: 0.28rem; }
+    #login-footer ul .th {
+      border: 0; }
+  #login-footer p {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.2rem; }
+
+.login-right {
+  background: url(../images/register/icons-18-white_41.png) no-repeat center; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,198 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: #f1f1f1; }
+
+#mine-header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  line-height: 1rem; }
+  #mine-header span {
+    display: inline-block;
+    font-size: 0.4rem;
+    margin-left: 38%;
+    vertical-align: middle; }
+  #mine-header img {
+    margin-left: 23%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.46rem; }
+
+#mine-main {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 10%;
+  width: 100%;
+  height: 3.88rem;
+  display: inline-block;
+  text-align: center;
+  background: #FF674E; }
+  #mine-main img {
+    margin: 0 auto;
+    display: block;
+    width: 1.5rem; }
+  #mine-main .mine-go {
+    display: block;
+    width: 1.7rem;
+    margin: 3% auto;
+    height: 0.5rem;
+    color: #fff;
+    background: #FF674E;
+    font-size: 0.25rem;
+    border: 1px solid #fff;
+    border-radius: 0.3rem; }
+
+#mine-tou {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 1.68rem;
+  background: #fff;
+  margin-top: 0.3rem;
+   }
+  #mine-tou ul {
+    width: 100%;
+    height: 1.1rem;
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 0.2rem;
+    border-bottom: 1px solid #F1F1F1; }
+    #mine-tou ul li {
+      flex: 1;
+      height: 0.7rem;
+      float: left;
+      text-align: center; 
+      }
+      #mine-tou ul li .mine-my {
+        line-height: 0.5rem;
+        width: 100%;
+        height: 90%;
+        border-right: 1px solid #f1f1f1;
+        box-sizing:border-box; }
+        #mine-tou ul li .mine-my b {
+          font-weight: 100;
+          display: block;
+          height: 0.3rem; }
+        #mine-tou ul li .mine-my span {
+          color: #999999; }
+  #mine-tou .mine-toutwo {
+    box-sizing: border-box;
+    padding-left: 4%;
+    font-size: 0.3rem;
+    height: 0.86rem;
+    line-height: 0.86rem; }
+    #mine-tou .mine-toutwo p {
+      font-size: 0.27rem;
+      color: #000;
+      float: left; }
+      #mine-tou .mine-toutwo p b {
+        color: #FF644C; }
+    #mine-tou .mine-toutwo img {
+      float: right;
+      width: 0.15rem;
+      margin-top: 5%;
+      margin-right: 4%; }
+
+.mine-score {
+  background: #fff;
+  box-sizing: border-box;
+  padding-left: 4%;
+  margin: 5% auto;
+  font-size: 0.3rem;
+  height: 0.86rem;
+  line-height: 0.86rem; }
+  .mine-score p {
+    font-size: 0.27rem;
+    color: #000;
+    float: left; }
+    .mine-score p b {
+      color: #FF644C; }
+  .mine-score .mine-score-right {
+    font-size: 0.25rem;
+    float: right;
+    color: #000;
+    margin-right: 4%; }
+    .mine-score .mine-score-right img {
+      width: 0.15rem;
+      margin-top: 5%; }
+
+.mine-spec {
+  box-sizing: border-box;
+  padding-left: 4%;
+  margin-top: 0.3rem;
+  background: #fff;
+  font-size: 0.25rem;
+  height: 0.86rem;
+  color: #000;
+  line-height: 0.86rem; }
+  .mine-spec p {
+    float: left; }
+  .mine-spec img {
+    float: right;
+    width: 0.15rem;
+    margin-top: 5%;
+    margin-right: 4%; }
+
+.mine-foot {
+  box-sizing: border-box;
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 2.7rem;
+  margin-bottom: 1.1rem; }
+  .mine-foot .mine-heng {
+    width: 90%;
+    height: 1rem;
+    position: relative;
+    line-height: 1rem;
+    margin: 0 auto; }
+    .mine-foot .mine-heng p {
+      position: absolute;
+      top: 45%;
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px solid #e5e5e5; }
+    .mine-foot .mine-heng span {
+      position: absolute;
+      top: -1%;
+      text-align: center;
+      width: 2.5rem;
+      background: #f1f1f1;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto; }
+  .mine-foot .mine-ul {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto; }
+    .mine-foot .mine-ul li {
+      float: left;
+      width: 33%;
+      font-size: 0.26rem; }
+      .mine-foot .mine-ul li dl dt {
+        display: inline-block;
+        width: 0.8rem;
+        height: 0.8rem;
+        margin-bottom: 0.2rem;
+        text-align: center;
+        line-height: 0.7rem;
+        border: 1px solid #C6C6C6;
+        border-radius: 3rem; }
+        .mine-foot .mine-ul li dl dt img {
+          vertical-align: middle;
+          display: inline-block;
+          width: 0.55rem; }
+
+.mine-two {
+  border: 0; }
+
+.mine-ssp {
+  margin-top: 0.03rem; }
+
+  .mine-footer #footer li:nth-child(5) a em{
+        background-image: url(../images/common/menu_ico5a.png);
+      }
+
+/*# sourceMappingURL=mine.css.map */

@@ -1,0 +1,519 @@
+.personforminfo-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 0.88rem;
+  background: #fff;
+  padding: 0 .2rem;
+  border-bottom: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  z-index: 99;
+}
+.personforminfo-header > h1 {
+  float: left;
+  width: 96%;
+  color: #000;
+  font-size: .38rem;
+  font-weight: normal;
+  text-align: center;
+  line-height: .88rem;
+}
+.personforminfo-header > .go-back {
+  float: left;
+  width: .23rem;
+  height: .41rem;
+  margin: .23rem 0;
+  background: url(../images/personforminfo/back.png) no-repeat center top;
+  background-size: contain;
+}
+
+.personforminfo-main {
+  margin-top: .88rem;
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll;
+}
+.personforminfo-main > .insure-type {
+  display: flex;
+  box-sizing: border-box;
+}
+.personforminfo-main > .insure-type > li {
+  flex: 1;
+  float: left;
+  box-sizing: border-box;
+  background: #fff;
+  text-align: center;
+  height: .88rem;
+  line-height: .88rem;
+  font-size: .3rem;
+  border-bottom: 1px solid #FF6600;
+  color: #FF6600;
+}
+.personforminfo-main > .form-content {
+  background: #fff;
+  width: 100%;
+  padding: 0 .2rem;
+  box-sizing: border-box;
+}
+.personforminfo-main > .form-content > div {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.04rem;
+  border-bottom: 1px solid #F0F0F0;
+}
+.personforminfo-main > .form-content > div > label {
+  color: #000;
+  font-size: .24rem;
+  line-height: 1rem;
+}
+.personforminfo-main > .form-content > div > input {
+  color: #000;
+  float: right;
+  text-align: right;
+  line-height: 1rem;
+  outline: none;
+  border: none;
+  padding: 0;
+  font-size: .24rem;
+}
+.personforminfo-main > .form-content > .id-card > .id-type {
+  width: 1.6rem;
+  background: #fff;
+  z-index: 2;
+  color: #000;
+  font-size: .24rem;
+  line-height: 1rem;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+}
+.personforminfo-main > .form-content > .id-card > i {
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  background: url("../images/personforminfo/arr.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.personforminfo-main > .form-content > .area > .slide-wapper {
+  float: right;
+  display: inline-block;
+}
+.personforminfo-main > .form-content > .area > .slide-wapper > .slide-item > input {
+  text-align: right;
+  line-height: 1rem;
+  outline: none;
+  border: none;
+  padding: 0;
+  font-size: .24rem;
+}
+.personforminfo-main > .form-content > .area > .slide-wapper > .slide-item > i {
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  background: url("../images/personforminfo/arr.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-left: .1rem;
+}
+.personforminfo-main > .form-content > .job {
+  border-bottom: none;
+}
+.personforminfo-main > .form-content > .job > i {
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  background: url("../images/personforminfo/arr.png") no-repeat;
+  background-size: 100%;
+  float: right;
+  margin: .4rem 0 .4rem .1rem;
+}
+.personforminfo-main > .insRelation {
+  width: 100%;
+  padding: 0 .2rem;
+  box-sizing: border-box;
+  background: #fff;
+  margin-top: .2rem;
+}
+.personforminfo-main > .insRelation > .insRelation-tit {
+  height: 1.04rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.personforminfo-main > .insRelation > .insRelation-tit > h3 {
+  font-size: .22rem;
+  font-weight: normal;
+  display: inline-block;
+  line-height: 1.04rem;
+}
+.personforminfo-main > .insRelation > .insRelation-tit > .sel-who {
+  line-height: 1.04rem;
+  float: right;
+  display: inline-block;
+}
+.personforminfo-main > .insRelation > .insRelation-tit > .sel-who > span {
+  font-size: .22rem;
+  display: inline-block;
+  height: .48rem;
+  line-height: .48rem;
+  text-align: center;
+  margin-left: .08rem;
+  padding: 0 .16rem;
+  border: 1px solid #E3E3E3;
+}
+.personforminfo-main > .insRelation > .insRelation-tit > .sel-who > .active {
+  border-color: #f60;
+  background: url(../images/insuranceinfo/checked_v2.png) no-repeat right bottom;
+  background-size: .25rem;
+}
+.personforminfo-main > .insRelation > .insRelation-tit > .sel-who > .child-range {
+  display: none;
+}
+.personforminfo-main > .insRelation > .not-mine-form {
+  display: none;
+  background: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+.personforminfo-main > .insRelation > .not-mine-form > div {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.04rem;
+  border-bottom: 1px solid #F0F0F0;
+}
+.personforminfo-main > .insRelation > .not-mine-form > div > label {
+  color: #000;
+  font-size: .24rem;
+  line-height: 1rem;
+}
+.personforminfo-main > .insRelation > .not-mine-form > div > input {
+  color: #000;
+  float: right;
+  text-align: right;
+  line-height: 1rem;
+  outline: none;
+  border: none;
+  padding: 0;
+  font-size: .24rem;
+}
+.personforminfo-main > .insRelation > .not-mine-form > .id-card > .id-type {
+  width: 1.6rem;
+  background: #fff;
+  z-index: 2;
+  color: #000;
+  font-size: .24rem;
+  line-height: 1rem;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+}
+.personforminfo-main > .insRelation > .not-mine-form > .id-card > i {
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  background: url("../images/personforminfo/arr.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.personforminfo-main > .insRelation > .not-mine-form > .job > i {
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  background: url("../images/personforminfo/arr.png") no-repeat;
+  background-size: 100%;
+  float: right;
+  margin: .4rem 0 .4rem .1rem;
+}
+.personforminfo-main > .favoree {
+  width: 100%;
+  height: 1.04rem;
+  box-sizing: border-box;
+  background: #fff;
+  margin-top: .2rem;
+  padding: 0 .2rem;
+}
+.personforminfo-main > .favoree > .favoree-question {
+  font-size: .24rem;
+  line-height: 1.04rem;
+}
+.personforminfo-main > .favoree > i {
+  display: inline-block;
+  width: .28rem;
+  height: .28rem;
+  background: url(../images/personforminfo/ask.png) no-repeat;
+  background-size: .28rem;
+  vertical-align: middle;
+  margin-left: .12rem;
+}
+.personforminfo-main > .favoree > .legal {
+  float: right;
+  font-size: .24rem;
+  margin: .36rem 0;
+}
+.personforminfo-main > .statement {
+  text-align: center;
+  padding: .2rem 0 .3rem 0;
+  font-size: .24rem;
+  color: #FF6600;
+}
+.personforminfo-main > .statement > span {
+  color: #666666;
+}
+.personforminfo-main > .statement > .read {
+  display: inline-block;
+  vertical-align: middle;
+  width: .3rem;
+  height: .3rem;
+  background: url(../images/personforminfo/checked.png) no-repeat;
+  background-size: .3rem;
+}
+.personforminfo-main > .statement > .no-read {
+  display: inline-block;
+  vertical-align: middle;
+  width: .3rem;
+  height: .3rem;
+  background: url(../images/personforminfo/check.png) no-repeat;
+  background-size: .3rem;
+}
+.personforminfo-main > .buyit {
+  padding: 0 .2rem 1rem .2rem;
+  box-sizing: border-box;
+}
+.personforminfo-main > .buyit > button {
+  display: block;
+  width: 100%;
+  line-height: .9rem;
+  text-align: center;
+  color: #fff;
+  background: #FF7215;
+  font: .32remrem microsoft Yahei;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+.personforminfo-main > .buyit > .disable {
+  color: #000;
+  background: #ccc;
+}
+
+.personforminfo-cover {
+  display: none;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.5);
+}
+.personforminfo-cover > .father-bar, .personforminfo-cover .son-bar, .personforminfo-cover .son-son-bar {
+  background: #fff;
+  width: 4.48rem;
+  height: 100%;
+  position: absolute;
+  right: -4.48rem;
+  opacity: 0;
+}
+.personforminfo-cover > .father-bar > h2, .personforminfo-cover .son-bar > h2, .personforminfo-cover .son-son-bar > h2 {
+  position: relative;
+  font-size: 0.28rem;
+  font-weight: normal;
+  line-height: .8rem;
+  text-align: center;
+}
+.personforminfo-cover > .father-bar > h2 > .close-type, .personforminfo-cover .son-bar > h2 > .close-type, .personforminfo-cover .son-son-bar > h2 > .close-type {
+  display: inline-block;
+  width: .36rem;
+  height: .36rem;
+  background: url(../images/personforminfo/close3.png) no-repeat;
+  background-size: .36rem;
+  float: right;
+  margin: .22rem;
+  position: absolute;
+  right: 0;
+}
+.personforminfo-cover > .father-bar > .selected, .personforminfo-cover .son-bar > .selected, .personforminfo-cover .son-son-bar > .selected {
+  display: block;
+  background: #F8F8F8;
+  width: 100%;
+  min-height: 1.28rem;
+  padding: .24rem;
+  box-sizing: border-box;
+}
+.personforminfo-cover > .father-bar > li, .personforminfo-cover .son-bar > li, .personforminfo-cover .son-son-bar > li {
+  margin-left: .24rem;
+  text-align: left;
+  box-sizing: border-box;
+  border-bottom: 1px solid #D7D7D7;
+  padding: .24rem .54rem .24rem 0;
+}
+.personforminfo-cover > .father-bar > li > i, .personforminfo-cover .son-bar > li > i, .personforminfo-cover .son-son-bar > li > i {
+  display: inline-block;
+  width: .24rem;
+  height: .24rem;
+  background: url("../images/personforminfo/arr.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: .2rem;
+  position: absolute;
+  right: 0;
+}
+.personforminfo-cover > .father-bar .son-bar, .personforminfo-cover .son-bar .son-bar, .personforminfo-cover .son-son-bar .son-bar {
+  display: none;
+  right: 0;
+  top: 2.08rem;
+}
+.personforminfo-cover > .father-bar .son-bar > li > .son-son-bar, .personforminfo-cover .son-bar .son-bar > li > .son-son-bar, .personforminfo-cover .son-son-bar .son-bar > li > .son-son-bar {
+  display: none;
+  right: 0;
+  top: 0rem !important;
+}
+
+.hide {
+  display: none;
+}
+
+.mPicker-hide {
+  visibility: hidden;
+}
+
+.mPicker-pr {
+  position: relative;
+}
+
+.mPicker {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.mPicker-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  background: #000;
+  opacity: .7;
+}
+
+.mPicker-active-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  margin-left: -40%;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.mPicker-main {
+  background: #fff;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 1rem !important;
+  width: auto;
+  left: 3%;
+  border-radius: .1rem;
+  z-index: 10;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translate3d(0, 0, 0);
+  padding: .4rem;
+}
+
+.mPicker-main.down {
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+}
+
+.mPicker-content {
+  overflow: hidden;
+  z-index: 15;
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mPicker-list {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 2.6rem !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.mPicker-content ul {
+  width: 2.6rem;
+  text-align: center;
+  z-index: 20;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mPicker-content li {
+  height: .72rem;
+  line-height: .72rem;
+  overflow: hidden;
+  color: #333;
+  font-size: .28rem;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.mPicker-confirm,
+.mPicker-cancel {
+  color: #333;
+  font-size: .28rem;
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mPicker-footer {
+  height: auto;
+  position: relative;
+  display: flex;
+}
+.mPicker-footer > a {
+  border-radius: .1rem;
+  width: auto;
+  height: auto;
+  padding: .1rem .4rem;
+  margin: 0 auto;
+}
+
+.mPicker-confirm {
+  background: #E05658;
+  color: #fff;
+}
+
+.mPicker-cancel {
+  background: #999999;
+  color: #fff;
+}
